@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment - PLP</title>
+    <link rel="stylesheet" href="./plp.css">
+</head>
+<body>
+    <main class="plpPage">
+        <nav class="plpPageNavbar">
+            <h4>NORTHGRAIN</h4>
+            <div class="plpNavbarOptions">
+                <p>Shop</p>
+                <p>About</p>
+            </div>
+            <button>
+                <p>Cart</p>
+            </button>
+        </nav>
+        <header class="plpShopHeadMount" data-shop-head-mount aria-label="shop-heading"></header>
+        <section class="plpGridMount" data-grid-mount aria-label="product-grid"></section>
+    </main>
+
+    <script>
+        window.shopifyLiquidValuesPLP = window.shopifyLiquidValuesPLP ?? {
+            collectionTitle: "Drinkware",
+            collectionSubtitle: "Small-batch ceramics and glassware.",
+        }
+    </script>
+
+    <script src="plp.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+* {box-sizing: border-box;}
+html, body {margin: 0; padding: 0;}
+.plpPage {
+    width: 60%;
+}
+
+.plpPageNavbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.plpNavbarOptions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.plpGridMount {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+.plpCard {
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.plpCardGradient {
+    height: 10rem;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0), rgba(255, 0, 0, 1));
+}
+.plpCardDetails {
+    padding: 10px;
+}
+.plpCardItemAndPrice {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.plpCardVariantAndAddButton {
+    margin-top: 10px;
+}
